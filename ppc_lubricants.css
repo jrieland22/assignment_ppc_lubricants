@@ -20,29 +20,22 @@
 			vertical-align: top;
 			padding-top: 25px;
 		}
-	.nav-bar{
-		color:black;
-		font-size: 12px;
-		background: linear-gradient(rgb(243,246,248),rgb(209,215,223),rgb(243,246,248));
-		height: 30px;
-	}
-		.nav-bar2{
+		.nav-bar{
 			height: 30px;
+			font-size: 12px;
+			background: linear-gradient(rgb(243,246,248),rgb(209,215,223),rgb(243,246,248));
+			font-weight: bold;
+
 		}
 		.nav-items-first{
-			display: inline-block;
-			padding-right: 15px;
-			padding-left: 15px;
-			text-decoration: none;
-			vertical-align: center;
-			height: 25px;
-			margin-left: 25px;
+			margin-left: 35px;
 		}
 		.nav-items{
+			color: rgb(83,83,83);
 			display: inline-block;
 			border-left: solid 1px #ACACAC;
 			padding-left: 15px;
-			padding-top: 5px;
+			padding-top: 10px;
 			vertical-align: center;
 			padding-right:15px;
 			text-decoration: none;
@@ -54,3 +47,47 @@
 			padding-right: 15px;
 			height: 25px;
 		}
+	.body{
+		background-color: black;
+		display: inline-block;
+		width: 100%;
+		min-height: 100px;
+		margin-top: 15px;
+		padding-left: 30px;
+		padding-top: 15px;
+		border: dashed 1px red;
+	}	
+		#white-walls{
+			border: 5px solid white;
+		}
+		.about{
+			display: inline-block;
+			vertical-align: top;
+			width: 550px;
+			height: 265px;
+			border: dashed 1px yellow;
+			color: white;
+			background-color: gray;
+		}
+		.about-title{
+			width: 98%;
+			height: 25px;
+			border: dashed blue 1px;
+			padding-top: 5px;
+			padding-left: 10px;
+			color: black;
+			background: linear-gradient(yellow,rgb(244,203,50),yellow);
+		}
+		.about-text{
+			color: white;
+			padding-left: 25px;
+			padding-top: 15px;
+		}
+			.font12{
+				font-size: 12px;
+				padding-right: 15px;
+			}
+		.logo-btn{
+			background-image: url("logo.png");
+		}
+	
